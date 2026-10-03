@@ -1,0 +1,29 @@
+# PlanetsUranus configuration
+
+# How far (in blocks) the freeze reaches around the caster.
+radius: 10.0
+
+# How long targets stay frozen.
+duration-seconds: 3.0
+
+# Time before the same player can use /uranus1 again.
+cooldown-seconds: 10.0
+
+# Who can be frozen.
+freeze-players: true
+freeze-mobs: true
+
+# If true, the caster must hold the Uranus item (main hand or off hand).
+require-item: true
+
+# Messages use MiniMessage formatting.
+messages:
+  need-item: "<red>You must be holding Uranus!</red>"
+  cooldown: "<red>Uranus is recharging... <white>{seconds}s</white></red>"
+  cast: "<aqua>Uranus freezes your enemies!</aqua>"
+  frozen: "<aqua>You have been frozen by Uranus!</aqua>"
+  given: "<aqua>You received Uranus.</aqua>"
+  given-other: "<aqua>Gave Uranus to {player}.</aqua>"
+  reloaded: "<green>PlanetsUranus config reloaded.</green>"
+  no-player: "<red>Player not found.</red>"
+  players-only: "<red>Only players can use this command.</red>"
